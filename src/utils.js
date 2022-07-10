@@ -8,3 +8,12 @@ function deepClone(obj){
         }
     }
 }
+
+function clone(obj){
+    let newObj = {}
+    for (let key in obj){
+        
+            newObj[key] = obj[key]
+        
+    }
+}
