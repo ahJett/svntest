@@ -12,7 +12,7 @@ function deepClone(obj){
 function clone(obj){
     let newObj = {}
     for (let key in obj){
-        
+            console.log('+++++++++++++++++++++++')
             newObj[key] = obj[key]
             console.log('ahjet-chm')
     }
