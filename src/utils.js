@@ -14,6 +14,6 @@ function clone(obj){
     for (let key in obj){
         
             newObj[key] = obj[key]
-        
+            console.log('ahjet-chm')
     }
 }
